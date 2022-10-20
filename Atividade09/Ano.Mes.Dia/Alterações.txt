@@ -1,0 +1,5 @@
+1. Incluimos no arquivo color.xml a cor:  <color name="Accent">#FFFFAF</color>
+2. Incluimos no arquivo activity_main.xml: Alinhamento centralizado em todos os elementos da tela (exceto o Switch), alteramos as cores do texto para black, alteramos a cor do botão para purple_200;
+3. Incluimos no arquivo activity_main.xml: o elemento Switch.
+4.Incluimos no arquivo MainActivity.kt: incluimos o setOnCheckedChangeListener no switch para quando estiver checado alterar o background para black e as cores dos textos para Accent
+e quando não estiver checado as cores voltam para background: Accent e os textos para black.
