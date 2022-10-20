@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amarelo"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+    android:id="@+id/txt_c"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Digite a temperatura em ºCelsius"
+    android:inputType="numberDecimal"
+    android:textAlignment="center"
+    android:textSize="20sp"
+    android:textColorHint="@color/black"
+    />
+
+    <Button
+        android:id="@+id/btn_converter_f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter para Graus Fahrenheit"
+        android:textAlignment="center"
+        android:backgroundTint="@color/purple_200"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_Resultado_f"
+        android:textSize="25sp"
+        android:textAlignment="center"
+    />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="374dp"
+        android:layout_height="41dp"
+        app:srcCompat="@drawable/ic_action_name" />
+
+    <EditText
+        android:id="@+id/txt_f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a temperatura em ºFahrenheit"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColorHint="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btn_converter_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter para Graus Celsius"
+        android:textAlignment="center"
+        android:backgroundTint="@color/purple_200"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_Resultado_c"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        />
+
+
+
+</LinearLayout>
