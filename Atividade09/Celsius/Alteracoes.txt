@@ -1,0 +1,5 @@
+1. Alteração do arquivo string.xml : <string name="app_name">Conversão de Temperatura</string>
+2. Alteração do arquivo activity_main.xml : Inclusão de um EditText, Buttom e TextView para calcular de Fahrenheit para Celsius
+3. Alteração do arquivo MainActivity.kt : Calculo de Fahrenheit para Celsius
+4. Inclusão de imagem 
+5. Estilizanção de alguns elementos como texto e botão.
