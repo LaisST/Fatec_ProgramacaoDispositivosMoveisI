@@ -3,3 +3,4 @@
 3. Incluimos no arquivo activity_main.xml: o elemento Switch.
 4.Incluimos no arquivo MainActivity.kt: incluimos o setOnCheckedChangeListener no switch para quando estiver checado alterar o background para black e as cores dos textos para Accent
 e quando não estiver checado as cores voltam para background: Accent e os textos para black.
+5. Alteramos o arquivo string.xml : Alteramos o texto para    <string name="app_name">Descubra sua idade em dias</string>
