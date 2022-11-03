@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    >
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Valor em Reais: " />
+
+    <EditText
+    android:id="@+id/txtValor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hint="Ex: 45,00"
+    android:inputType="numberDecimal" />
+
+    <Button
+    android:id="@+id/btnCalcular"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Calcular Compra" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor em Bitcoins: " />
+
+    <EditText
+        android:id="@+id/txtValorVenda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Ex: 0.123456"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalcularVenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Venda" />
+
+
+</LinearLayout>
