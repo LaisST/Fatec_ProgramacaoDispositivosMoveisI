@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelNome"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:text="Qual o seu nome?" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNome"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:hint="Digite seu nome"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSalvar"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:text="Salvar"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelResultado"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:text="Olá, usuário não definido"
+        android:textSize="30dp"
+        />
+
+</LinearLayout>
